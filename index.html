@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mnf — Luftaufnahmen für Immobilien</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">mnf</a>
+    <ul class="nav-links">
+      <li><a href="#services">Leistungen</a></li>
+      <li><a href="#pricing">Preise</a></li>
+      <li><a href="#process">Ablauf</a></li>
+      <li><a href="#contact" class="nav-cta">Angebot anfragen</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <ul>
+      <li><a href="#services" class="mobile-link">Leistungen</a></li>
+      <li><a href="#pricing" class="mobile-link">Preise</a></li>
+      <li><a href="#process" class="mobile-link">Ablauf</a></li>
+      <li><a href="#contact" class="mobile-link">Angebot anfragen</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Luftaufnahmen · Immobilien</p>
+      <h1 class="hero-headline reveal">
+        Immobilien verkaufen<br />
+        <em>sich besser,</em><br />
+        von oben gesehen.
+      </h1>
+      <p class="hero-sub reveal">
+        mnf liefert präzise Luftfotografie und -videografie<br class="br-desktop" />
+        für Immobilienmakler, Entwickler und Privatverkäufer.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#pricing" class="btn btn-primary">Pakete ansehen</a>
+        <a href="#services" class="btn btn-ghost">Leistungen ↓</a>
+      </div>
+    </div>
+    <div class="hero-stat-strip reveal">
+      <div class="stat"><span class="stat-num">340+</span><span class="stat-label">Objekte aufgenommen</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Kundentreue</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">48h</span><span class="stat-label">Ø Lieferzeit</span></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Was wir tun</span>
+        <h2 class="section-title">Luftaufnahmen, die Inserate bewegen.</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="28" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="2" fill="currentColor"/>
+              <rect x="16" y="7" width="8" height="3" rx="1" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Luftfotografie</h3>
+          <p>Hochauflösende Standbilder aus optimaler Höhe und Perspektive — Grundstücksgrösse, Umgebung und Architektur kommen perfekt zur Geltung. Druckfertig geliefert.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="12" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M26 16l10-5v18l-10-5V16z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Luftvideografie</h3>
+          <p>Kinematografische Überflüge, gleichmässige Orbitaufnahmen und dynamische Enthüllungssequenzen — professionell geschnitten für Inserate und Social Media.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 28L16 18l6 7 5-6 5 9H8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <circle cx="28" cy="13" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="4" y="6" width="32" height="28" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Kombi-Paket</h3>
+          <p>Foto und Video in einer einzigen Session. Maximaler Gegenwert pro Einsatz, einheitliche Abdeckung, ein gemeinsamer Liefertermin.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER STATEMENT -->
+  <section class="statement">
+    <div class="container">
+      <blockquote class="statement-quote reveal">
+        «Inserate mit Luftaufnahmen werden <em>68 % schneller</em> verkauft und erzielen höhere Angebotspreise — in allen Marktsegmenten.»
+      </blockquote>
+      <p class="statement-source reveal">— National Association of Realtors, Medienbericht 2024</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Transparente Preise</span>
+        <h2 class="section-title">Ein Einsatz. Drei Optionen.</h2>
+      </div>
+      <div class="pricing-grid">
+
+        <!-- PHOTOS ONLY -->
+        <div class="pricing-card reveal">
+          <div class="pricing-card-header">
+            <p class="pricing-label">Fotografie</p>
+            <p class="pricing-price"><span class="pricing-currency">CHF</span>290</p>
+            <p class="pricing-note">pro Objekt</p>
+          </div>
+          <ul class="pricing-features">
+            <li>20 hochauflösende Luftaufnahmen</li>
+            <li>Farbkorrigiert & retuschiert</li>
+            <li>Druck- und Webformat inklusive</li>
+            <li>Lieferung innerhalb 48 Stunden</li>
+            <li>1 Korrekturschleife</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Fotografie buchen</a>
+        </div>
+
+        <!-- VIDEO ONLY -->
+        <div class="pricing-card pricing-card--featured reveal">
+          <div class="pricing-badge">Am häufigsten gebucht</div>
+          <div class="pricing-card-header">
+            <p class="pricing-label">Videografie</p>
+            <p class="pricing-price"><span class="pricing-currency">CHF</span>490</p>
+            <p class="pricing-note">pro Objekt</p>
+          </div>
+          <ul class="pricing-features">
+            <li>60–90 Sek. geschnittenes Objektvideo</li>
+            <li>Kinematografische Farbkorrektur</li>
+            <li>Lizenzfreie Hintergrundmusik</li>
+            <li>4K-Lieferung + komprimierte Webversion</li>
+            <li>2 Korrekturschleifen</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Videografie buchen</a>
+        </div>
+
+        <!-- COMBINED -->
+        <div class="pricing-card reveal">
+          <div class="pricing-card-header">
+            <p class="pricing-label">Kombi-Paket</p>
+            <p class="pricing-price"><span class="pricing-currency">CHF</span>690</p>
+            <p class="pricing-note">pro Objekt</p>
+          </div>
+          <ul class="pricing-features">
+            <li>Alles aus Fotografie</li>
+            <li>Alles aus Videografie</li>
+            <li>Priorität bei der Terminvergabe</li>
+            <li>Garantierte Lieferung in 48 Stunden</li>
+            <li>3 Korrekturschleifen</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Kombi-Paket buchen</a>
+        </div>
+
+      </div>
+      <p class="pricing-footnote reveal">Alle Pakete beinhalten die Beantragung von Flugbewilligungen und Betriebshaftpflicht vor Ort. Fahrkostenaufschlag ab 30 km Entfernung.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">So funktioniert's</span>
+        <h2 class="section-title">Von der Buchung zur Lieferung in vier Schritten.</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal">
+          <span class="step-num">01</span>
+          <div class="step-body">
+            <h4>Anfrage & Offerte</h4>
+            <p>Senden Sie uns die Objektadresse und Ihr Wunschpaket. Wir bestätigen Verfügbarkeit und Wetterfenster innerhalb von 24 Stunden.</p>
+          </div>
+        </div>
+        <div class="process-step reveal">
+          <span class="step-num">02</span>
+          <div class="step-body">
+            <h4>Flugplanung</h4>
+            <p>Wir kümmern uns um alle Bewilligungen und Luftraumkontrollen. Sie erhalten einen bestätigten Aufnahmetermin mit einem 2-Stunden-Ankunftsfenster.</p>
+          </div>
+        </div>
+        <div class="process-step reveal">
+          <span class="step-num">03</span>
+          <div class="step-body">
+            <h4>Aufnahme vor Ort</h4>
+            <p>Unser Pilot erfasst alle erforderlichen Perspektiven und Sequenzen. Die meisten Einsätze dauern unter 90 Minuten — ohne Beeinträchtigung des Objekts.</p>
+          </div>
+        </div>
+        <div class="process-step reveal">
+          <span class="step-num">04</span>
+          <div class="step-body">
+            <h4>Bearbeitete Lieferung</h4>
+            <p>Die nachbearbeiteten Dateien werden innerhalb von 48 Stunden nach dem Dreh über einen privaten Download-Link geliefert — noch am selben Tag inserierbereit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="contact-text">
+          <span class="section-tag light">Kontakt</span>
+          <h2 class="section-title light">Bereit, Ihr Inserat mit besseren Aufnahmen zu stärken?</h2>
+          <p class="contact-sub">Erzählen Sie uns von Ihrem Objekt und dem gewünschten Paket. Wir melden uns innerhalb eines Werktages.</p>
+          <div class="contact-details">
+            <p><a href="mailto:hello@mnf.film">hello@mnf.film</a></p>
+            <p><a href="tel:+41441234567">+41 44 123 45 67</a></p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Vollständiger Name</label>
+              <input type="text" id="name" name="name" placeholder="Anna Müller" required />
+            </div>
+            <div class="form-field">
+              <label for="company">Unternehmen</label>
+              <input type="text" id="company" name="company" placeholder="Müller Immobilien AG" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="email">E-Mail-Adresse</label>
+            <input type="email" id="email" name="email" placeholder="anna@mueller-immo.ch" required />
+          </div>
+          <div class="form-field">
+            <label for="package">Gewünschtes Paket</label>
+            <select id="package" name="package">
+              <option value="">Paket auswählen…</option>
+              <option value="photography">Fotografie — CHF 290</option>
+              <option value="video">Videografie — CHF 490</option>
+              <option value="full">Kombi-Paket — CHF 690</option>
+              <option value="unsure">Noch unsicher</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Objekt & Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Objektadresse, Typ, besondere Anforderungen…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Anfrage senden →</button>
+          <p class="form-disclaimer">Ihre Daten werden nicht an Dritte weitergegeben.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">mnf</span>
+        <p>Luftaufnahmen für Immobilienprofis.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Leistungen</a>
+        <a href="#pricing">Preise</a>
+        <a href="#process">Ablauf</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+      <p class="footer-copy">© 2025 mnf. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
